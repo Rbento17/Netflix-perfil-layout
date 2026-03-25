@@ -1,0 +1,83 @@
+body {
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: white;
+    font-size: 4em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 150px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    list-style: none;
+}
+
+.profile {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    font-size: 1.5em;
+    color: rgb(100, 99, 99);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.profile img:hover + p,
+.profile img:focus + p {
+    color: white;
+}
+
+.profile img:hover{
+    border: white solid 2px;
+    cursor: pointer;
+    color: white;
+}
+
+.profile img {
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.ajuste:hover {
+    color: white;
+}
+
+.ajuste {
+    border: rgb(100, 99, 99) 2px solid;
+    color: rgb(100, 99, 99);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    font-size: 2em;
+    margin: 100px auto 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}       
+
+.ajuste:hover{
+    border: white solid 2px;
+    cursor: pointer;
+    color: white;
+}
